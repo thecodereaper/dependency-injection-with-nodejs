@@ -1,0 +1,26 @@
+{
+  "name": "dependency-injection-with-nodejs",
+  "version": "1.0.0",
+  "description": "This project presents the dependency injection design pattern using the awilix package in a nodejs api project.",
+  "main": "src/server.js",
+  "scripts": {
+    "build:dev": "babel src -d build --source-maps --watch"
+  },
+  "author": "theCodeReaper",
+  "license": "MIT",
+  "dependencies": {
+    "awilix": "^4.2.6",
+    "awilix-express": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-decorators": "^7.10.1",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2"
+  }
+}
